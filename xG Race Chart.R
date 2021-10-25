@@ -7,7 +7,7 @@
 #' @param away_color is for the colour of the line for the away team.
 #' @param theme to select the colours. Choose from 4 themes -> dark, almond, rose, white.
 #' 
-#' @example_plot <- plot_xgrace(data = data, team_home = "Arsenal", team_away = "Aston Villa",
+#' @example_plot <- plot_xgrace(data = data, team_home = "Manchester United", team_away = "Liverpool",
 #'                              home_color = "#e31a1c", away_color = "#980043", theme = "dark")
 
 library(worldfootballR)
