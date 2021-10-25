@@ -110,8 +110,8 @@ min2 <- dat2$minute
 p1 <- dat1$player
 p2 <- dat2$player
 
-player_lab1 <- paste(p1, ",", min1)
-player_lab2 <- paste(p2, ",", min2)
+player_lab1 <- paste(p1, min1)
+player_lab2 <- paste(p2, min2)
 
 ggplot() +
   geom_step(data = data1, aes(x = minute, y = xGsum), colour = home_color, size = 3) +
