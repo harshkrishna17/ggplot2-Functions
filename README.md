@@ -29,3 +29,17 @@ plot_trendline(data = data, team = "RB Leipzig",
 ```
 
 ![gg](https://user-images.githubusercontent.com/87293901/138740112-26195e9c-866d-494f-bfb7-de7b44c5e5c4.png)
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Finishing Variance Line
+
+Plot a Linechart that shows how a players finishing trends over time using Understat data. [Code here.](https://github.com/harshkrishna17/ggplot2-Functions/blob/main/Finishing%20Variance%20Line.R)
+
+To Create, load the packages, run the function, and run the following line (setting specific parameters) for the final viz.
+
+```
+plot_varline(player_id = 5555, roll_avg = 50, theme = "dark")
+```
+
+![Rplot274](https://user-images.githubusercontent.com/87293901/138848925-0a421e5f-8689-4354-af36-7bbc1fd64c56.png)
