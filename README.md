@@ -7,7 +7,7 @@ Create an xG race chart using data from Understat. [Code to create function](htt
 
 To Create, extract the data, run the function, and run the following line (setting specific parameters) for the final viz.
 
-```
+```R
 plot_xgrace(data = data, team_home = "Manchester United", team_away = "Liverpool",
             home_color = "#e31a1c", away_color = "#980043", theme = "dark")
 ```            
