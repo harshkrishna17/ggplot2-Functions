@@ -16,29 +16,13 @@ plot_xgrace(data = data, team_home = "Manchester United", team_away = "Liverpool
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-## xG Trendline
-
-Plot an xG vs xGA trendline using FBref(via StatsBomb data). [Function code](https://github.com/harshkrishna17/ggplot2-Functions/blob/main/xG%20Trendline.R)
-
-To Create, extract the data, run the function, and run the following line (setting specific parameters) for the final viz.
-
-```
-plot_trendline(data = data, team = "RB Leipzig",
-               colour_xg = "#08519c", colour_xga = "#cb181d",
-               roll_avg = 10, theme = "dark")
-```
-
-![gg](https://user-images.githubusercontent.com/87293901/138740112-26195e9c-866d-494f-bfb7-de7b44c5e5c4.png)
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 ## Finishing Variance Line
 
 Plot a Linechart that shows how a players finishing trends over time using Understat data. [Code here.](https://github.com/harshkrishna17/ggplot2-Functions/blob/main/Finishing%20Variance%20Line.R)
 
 To Create, load the packages, run the function, and run the following line (setting specific parameters) for the final viz.
 
-```
+```R
 plot_varline(player_id = 5555, roll_avg = 50, theme = "dark")
 ```
 
